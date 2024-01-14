@@ -1,8 +1,0 @@
-language: python
-python:
- - 3.10.12
-before_script:
- - python3 -m flask db upgrade
-script:
- - pytest
-
